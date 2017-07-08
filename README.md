@@ -1,7 +1,6 @@
 # PORTOFIO LANDING PAGE
 
-## AUTHORS NAME
-**Neville Oronni**
+_**Neville Oronni**_
 
 ## DESCRIPTION OF PROJECT
 
