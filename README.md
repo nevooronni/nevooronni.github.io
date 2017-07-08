@@ -35,5 +35,8 @@ The work should be pushed to a folder with the name username.github.io whereby u
 ## GITHUB PAGES LINKS  
 [GITHUB LIVE PAGE to see website preview](nevooronni.github.io)
 
+## CONTACT INFORMATION  
+[email address: nevooronni@gmail.com](nevooronni@gmail.com)
+
 ## LICENSE INFORMATION
 *MIT LICENSE*
