@@ -22,7 +22,7 @@ _**Neville Oronni**_
 * Bootstrap classes are used to style your page.
 * A custom-made stylesheet that uses cascading, the box model, and floats
 * Indentation and spacing of HTML and CSS is accurate.
-* Commits made regularly with clear messages associated with them
+* Commits made regularly wexitith clear messages associated with them
 * A project README that includes:
 * author name
 * project or program name

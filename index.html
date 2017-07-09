@@ -15,19 +15,19 @@
   <body>
   <!--navbar section-->
     <nav class="navbar navbar-default navbar-fixed-top" id="marginbottom">
-      <div class="container-fluid">
+      <div class="container-fluid" id="navcolor">
         <div class="row">
           <div class="col-md-6">
             <div class="navbar-header">
-              <a href="#" class="navbar-brand">NEVILLE ORONNI</a>
+              <a href="#" class="navbar-brand" id="yellow">NEVILLE ORONNI</a>
             </div>
           </div>
           <div class="col-md-6">
             <ul class="nav navbar-nav">
-              <li class="active margin"><a href="#">SERVICES</a></li>
-              <li><a href="#" class="margin">PORFOLIO</a></li>
-              <li><a href="#" class="margin">ABOUT</a></li>
-              <li><a href="#">CONTACT</a></li>
+              <li class="active margin"><a href="#section1">SERVICES</a></li>
+              <li><a href="#section2" class="margin">PORFOLIO</a></li>
+              <li><a href="#section3" class="margin">ABOUT</a></li>
+              <li><a href="#section4">CONTACT</a></li>
             </ul>
           </div>
         </div>
@@ -45,36 +45,130 @@
             <h2 class="col-md-3" id="size">UX DESIGNER</h2>
           <div class="col-md-1"></div>
         </div>
-        <button type="button" class="btn btn-default btn-lg" id="button">LEARN MORE</button>
+        <button type="button" class="btn btn-default btn-lg btn-warning" id="button">LEARN MORE</button>
       </div>
     </div>
 
     <!--Services section-->
     <div class="container-fluid">
-    <h1 class="text-center" id="services">SERVICES</h1>
-    <p>This are the services I offer</p>
+    <h1 class="text-center services" id="section1">SERVICES</h1>
+    <p class="text-center top">These are the services I offer</p>
       <div class="row">
-        <div class="col-md-4">
-          <img src="img/ecommerce.jpg" alt="images of me" id="img">
+        <div class="col-md-4 rowbottom">
+          <img src="img/ecommerce.jpg" alt="images of an ecoomerce website" class="img">
           <h3>E-COMMERCE</h3>
-          <p>The best e-commerce websites in the market with the best<br/> functionality that allows you user to browse with ease and<br/> intergrates all manner of
+          <p>The best e-commerce websites in the market with the best<br/> functionality that allows you user to browse with <strong>ease</strong> and<br/> intergrates all manner of
           payment platforms!</p>
-          <button typ="button" class="btn btn-default btn-sm">LEARN MORE</button>
+          <button typ="button" class="btn btn-default btn-sm btn-warning bs">LEARN MORE</button>
         </div>
         <div class="col-md-4">
-          <img src="img/responsive.png" alt="imgage that represent my personality" id="img">
+          <img src="img/responsive.png" alt="imgage of a responsive website" class="img">
           <h3>RESPONSICE DESIGN</h3>
           <p>Good quality responsive website that are able to be viewed<br/> in any screen size on any device, this is a must feature for<br/> modern website that allows users to have the best experience.</p>
-          <button typ="button" class="btn btn-default btn-sm">LEARN MORE</button>
+          <button typ="button" class="btn btn-default btn-sm btn-warning bs">LEARN MORE</button>
         </div>
         <div class="col-md-4">
-          <img src="img/kodlama.jpg" alt="another image of that represents me" id="img">
+          <img src="img/kodlama.jpg" alt="another image of a keyboard" class="img">
           <h3>WEB SECURITY</h3>
-          <p>Get the best in web security practices that secures your website<br/> against malicious attacks and prevents andy type of data theft<br/> this is must have in an increasingly insecure online world.</p>
-          <button type="button" class="btn btn-default btn-sm">LEARN MORE</button>
-          </div>
+          <p>Get the best in web security practices that <em>secures</em> your website<br/> against malicious attacks and prevents andy type of data theft<br/> this is must have in an increasingly insecure online world.</p>
+          <button type="button" class="btn btn-default btn-sm btn-warning bs">LEARN MORE</button>
+        </div>
       </div>
     </div>
-    
+
+    <!--Portfolio section-->
+    <div class="container-fluid" id="color">
+      <h1 class="text-center services" id="section2">PORTFOLIO</h1>
+      <p class="text-center top">The Masterpieces</p>
+      <div class="row portfolio-hover-content">
+        <div class="col-md-4 rowbottom">
+          <img src="img/cake.png" alt="image of a website I built" class="img2">
+          <div id="low" class="text-center">
+            <h3 id="cupcake">CUPCAKE</h3>
+            <p class="grey">A cake website</p>
+          </div>
+        </div>
+        <div class="col-md-4 rowbottom">
+          <img src="img/boostrap.png" alt="imgage of a website I built" class="img2">
+          <div id="low" class="text-center">
+            <h3 id="cupcake">BOOSTRAP</h3>
+            <p class="grey">Built using boostrap</p>
+          </div>  
+        </div>
+        <div class="col-md-4 rowbottom">
+          <img src="img/boring.png" alt="image of a websit I built" class="img2">
+          <div id="low" class="text-center">
+            <h3 id="cupcake">BORING</h3>
+            <p class="grey">checkout color</p>
+          </div>  
+        </div>
+      </div>
+    </div>
+
+    <!--About section-->
+    <div class="container-fluid">
+      <h1 class="text-center services" id="section3">ABOUT</h1>
+      <p class="text-center top">A little about me</p>
+      <div class="row">
+        <div class="col-md-4 rowbottom">
+          <img src="img/me.jpg" alt="images of me" class="img">
+        </div>
+        <div class="col-md-4">
+          <img src="img/me3.jpg" alt="imgage that represent my personality" class="img">
+        </div>
+        <div class="col-md-4">
+          <img src="img/me2.jpg" alt="another image of that represents me" class="img">
+        </div>
+      </div>
+      <div class="rowbottom">
+        <h1 class="text-center services">Personal Info About Me<h1>
+        <p class="text-center grey">B.a(Design) University of Nairobi</p>
+        <p class="text-center grey">worked at Kraturi Gemstones</p>
+        <p class="text-center grey">Learnt programmiing so that I can programme cool applications</p>
+        <p class="text-center grey">Hobbies include reading, listening to music, playing video games etc</p>
+      </div>  
+    </div>
+
+    <!--Contact section-->
+    <div class="container-fluid" id="world">
+      <div id="section4">
+        <h1 class="text-center services" id="contact">CONTACT</h1>
+          <form action="#" method="Get">
+            <div class="row">
+              <div class="col-md-6">
+                <input type="text" name="" value="YOUR NAME*" class="form"/><br/>
+                <input type="text" name="" value="YOUR EMAIL*" class="form"/><br/>
+                <input type="text" name="" value="YOUR PHONE*" class="form"/><br/>
+              </div>
+              <div class="col-md-6">
+                <textarea rows="" cols="" value="YOUR MESSAGE*" id="textarea"></textarea>
+              </div>
+            </div>        
+            <div class="row">
+              <div class="col-md-12">
+                <input type="submit" value="SEND MESSAGE" class="btn btn-default btn-lg btn-warning" id="button2"/>  
+              </div>
+            </div>
+          </form>
+      </div>    
+    </div>
+
+    <!--footer section-->
+    <div class="container-fluid" id="footer">
+      <div class="row">
+        <div class="col-md-5">
+          <p class="footer">Copyright © Your Website 2016</p>
+        </div>
+        <div class="col-md-4">  
+          <a href="https://twitter.com/"><img src="img/twitter.png" alt="twitter logo" class="display footer"/></a>
+          <a href="https://facebook.com/"><img src="img/facebook.jpg" alt="facebook logo" class="display footer"/></a>
+          <a href="https://linkedin.com"><img src="img/linkedin.jpg" alt="linkedIn logo" class="display footer"/></a>
+        </div>
+        <div class="col-md-3 footer">
+          <a href="#" id="yellow">Privacy Policy</a>
+          <a href="#" id="yellow">Terms of Use</a>
+        </div>
+      <div>
+
   </body>
 </html>
