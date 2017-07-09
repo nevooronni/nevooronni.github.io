@@ -13,3 +13,14 @@
 #center {
   text-align: center;
 }
+
+#button {
+  text-align: center;
+  padding: 20px 35px 20px 35px;
+  margin: 0 800px 0 650px;
+}
+
+#image {
+  background-image: url("../img/code3.jpg");
+  background-size: cover;
+}
