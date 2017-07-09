@@ -23,4 +23,5 @@
 #image {
   background-image: url("../img/code3.jpg");
   background-size: cover;
+  height: 800px;
 }
